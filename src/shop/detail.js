@@ -1,3 +1,12 @@
-/**
- * Created by Alex_Lazareva on 10.07.2017.
- */
+import React from 'react';
+
+export default class Detail extends React.Component {
+
+    render() {
+        return (
+            <div>
+
+            </div>
+        );
+    }
+}

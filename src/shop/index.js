@@ -32,6 +32,8 @@ export default class Shop extends React.Component {
                 <ul className='list'>
                     { phones.map(this.mapPhones.bind(this)) }
                 </ul>
+
+                <Detail phone={ this.state.phone }/>
             </div>
         );
     }
