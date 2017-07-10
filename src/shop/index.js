@@ -15,7 +15,7 @@ export default class Shop extends React.Component {
 
     mapPhones(phone, i) {
         return (
-            <li key={i} onClick={this.handleClick.bind(this.phone)}>
+            <li key={i} onClick={this.handleClick.bind(this, phone)}>
                 { phone.name }
                 <img src={phone.imageUrl} />
             </li>
