@@ -33,7 +33,7 @@ export default class Shop extends React.Component {
                     { phones.map(this.mapPhones.bind(this)) }
                 </ul>
 
-                <Detail phone={ this.state.phone }/>
+                <Detail phone={ this.state.phone } className='detail' />
             </div>
         );
     }
